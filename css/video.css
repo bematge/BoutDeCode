@@ -1,0 +1,32 @@
+
+body {font-family : Arial;}
+
+#InformationsVIDEO {display : block; width : 600px; margin : auto;}
+#InformationsVIDEO label {display : inline-block; margin-top:20px; margin-right: 5px}
+#InformationsVIDEO input {display : inline-block; margin-top:20px; margin-right: 15px}
+#InformationsVIDEO #lastlabel {display : block; margin-top:20px;}
+
+#InformationsVIDEO legend {font-size: 1.2em; text-transform: uppercase;}
+ 
+
+#videoCODE {display : inline-block ; min-height : 200px; }
+#videoSHOW {display : inline-block ; }
+
+#videoURL { display:block; width: 580px}
+#videoTITLE { display:block; width: 580px}
+#videoEXT {display:inline-block; width: 75px}
+
+#videoHAUT {display:inline-block; width: 75px}
+#videoLARG {display:inline-block; width: 75px}
+
+#videoALT  {display:block; margin-top: 20px; width: 550px; height:40px;}
+
+#videoCODE {display : block; width : 600px; margin : auto; margin-top : 20px;}
+#videoSHOW {display : block; width : 600px; margin : auto; margin-top : 20px;}
+
+.hide {visibility : hidden; display:block; position: absolute; top:-10000px; left:-1000px;}
+.nohide { width : 100%; text-align : center; margin:auto;}
+
+button {margin-top : 20px ; padding : 1em; display: inline-block;}
+button:first-child {float : left;}
+button:last-child {float : right;}

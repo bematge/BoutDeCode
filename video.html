@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Insertion de bouts de code">
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" media="all" href="#" />
+	<![endif]-->
+    <link href="css/video.css" rel='stylesheet' type='text/css' media='screen'>
+    <script src="js/video.js"></script> 
+
+
+    <title>Insertion de bouts de code</title>
+  
+</head>
+
+
+<body>
+
+
+<fieldset id="InformationsVIDEO">
+<legend>Insertion de vidéo
+</legend>
+
+<form name="video">
+<label for="videoURL">URL de la Vidéo</label>
+<input id="videoURL" name="videoURL" type="text" placeholder="Collez l'URL de la vidéo (lien FTP ou HTTP)"></input>
+<label for="videoTITLE">Titre de la Vidéo</label>
+<input id="videoTITLE" name="videoTITLE" type="text" placeholder="Titre de la vidéo"></input>
+
+
+<label for="videoEXT">Format/extension</label>
+<input id="videoEXT" name="videoEXT" type="text" placeholder="ex : mp4" value="mp4"></input>
+<label for="videoLARG">Largeur</label>
+<input id="videoLARG" name="videoLARG" type="text" placeholder="en pixels"></input>
+<label for="videoHAUT">Hauteur</label>
+<input id="videoHAUT" name="videoHAUT" type="text" placeholder="en pixels"></input>
+
+<label id="lastlabel" for="videoALT">Texte de remplacement</label>
+<textarea id="videoALT" name="videoALT" type="text" placeholder="Votre navigateur ne prend pas en charge la lecture de cette vidéo. Vous pouvez la télécharger en suivant ce lien : " value="Votre navigateur ne prend pas en charge la lecture de cette vidéo. Vous pouvez la télécharger en suivant ce lien : "></textarea>
+</form>
+
+<button onClick="VideoShow()">Afficher la vidéo rendue</button>
+<button onClick="VideoEncode()">Afficher le code à insérer</button>
+
+</fieldset>
+
+
+<textarea class="hide" type="text" id="videoCODE" name="videoCODE"></textarea>
+
+<div class="hide" id="videoSHOW" title="video"><div>
+
+</body>
+</html>

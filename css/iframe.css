@@ -1,0 +1,41 @@
+
+body {font-family : Arial;}
+
+#InformationsIFRAME {display : block; width : 600px; margin : auto;}
+#InformationsIFRAME label {display : inline-block; margin-top:20px; margin-right: 5px}
+#InformationsIFRAME input {display : inline-block; margin-top:20px; }
+#InformationsIFRAME #lastlabel {display : block; margin-top:20px;}
+
+#InformationsIFRAME legend {font-size: 1.2em; text-transform: uppercase;}
+ 
+
+#iframeCODE {display : inline-block ; min-height : 200px; }
+#iframeSHOW {display : inline-block ; }
+
+#iframeURL { display:block; width: 580px}
+#iframeTITLE { display:block; width: 580px}
+#iframeEXT {display:inline-block; width: 75px}
+
+#iframeSCROLL { display:block; width: 30px}
+#iframeBORD { display:block; width: 30px}
+
+
+
+#iframeHAUT {display:inline-block; width: 75px}
+#iframeLARG {display:inline-block; width: 75px}
+
+#iframeHAUTu {display:inline-block; width: 55px}
+#iframeLARGu {display:inline-block; width: 55px}
+
+
+#iframeALT  {display:block; margin-top: 20px; width: 580px; height:40px;}
+
+#iframeCODE {display : block; width : 600px; margin : auto; margin-top : 20px;}
+#iframeSHOW {display : block; width : 600px; margin : auto; margin-top : 20px;}
+
+.hide {visibility : hidden; display:block; position: absolute; top:-10000px; left:-1000px;}
+.nohide { width : 100%; text-align : center; margin:auto;}
+
+button {margin-top : 20px ; padding : 1em; display: inline-block;}
+button:first-child {float : left;}
+button:last-child {float : right;}

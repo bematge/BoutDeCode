@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Insertion de bouts de code">
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" media="all" href="#" />
+	<![endif]-->
+    <link href="css/iframe.css" rel='stylesheet' type='text/css' media='screen'>
+    <script src="js/iframe.js"></script> 
+
+    <title>Insertion de bouts de code</title>
+  
+</head>
+
+
+<body>
+
+
+<fieldset id="InformationsIFRAME">
+<legend>Insertion d'iframe
+</legend>
+
+<form name="iframe">
+<label for="iframeURL">URL de la source</label>
+<input id="iframeURL" name="iframeURL" type="text" placeholder="Collez l'URL de la source"></input>
+<label for="iframeTITLE">Titre du cadre</label>
+<input id="iframeTITLE" name="iframeTITLE" type="text" placeholder="Titre du cadre"></input>
+
+
+<label for="iframeBORD">Bordure</label>
+<input id="iframeBORD" name="iframeBORD" type="number" placeholder="0" value="0"></input>
+<label for="iframeSCROLL">Scrolling</label>
+<input id="iframeSCROLL" name="iframeSCROLL" type="number" placeholder="0" value="0"></input>
+
+<br/>
+
+<label for="iframeLARG">Largeur</label>
+<input id="iframeLARG" name="iframeLARG" type="number" placeholder="% ou px"></input>
+
+<label for="iframeLARGu" class="hide">Unité</label>
+<select id="iframeLARGu" name="iframeLARGu">
+
+<option selected>px</option>
+<option>%</option>
+</select>
+
+
+<label for="iframeHAUT">Hauteur</label>
+<input id="iframeHAUT" name="iframeHAUT" type="number" placeholder="% ou px"></input>
+
+<label for="iframeHAUTu" class="hide">Unité</label>
+<select id="iframeHAUTu" name="iframeHAUTu">
+<option selected>px</option>
+<option>%</option>
+
+</select>
+
+
+
+<label id="lastlabel" for="iframeALT">Description longue</label>
+<textarea id="iframeALT" name="iframeALT" type="text" placeholder="insérez ici la transcription de la vidéo"></textarea>
+</form>
+
+<button onClick="iframeShow()">Afficher l'iframe rendu</button>
+<button onClick="iframeEncode()">Afficher le code à insérer</button>
+
+</fieldset>
+
+
+<textarea class="hide" type="text" id="iframeCODE" name="iframeCODE"></textarea>
+
+<p class="hide" id="iframeSHOW" title="iframe">
+
+	<p>
+
+</body>
+</html>
